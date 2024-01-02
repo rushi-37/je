@@ -1,0 +1,68 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: grey;
+  color: white;
+}
+
+.calculator {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 2px solid #3d3d3d;
+  border-radius: 10px;
+  text-align: center;
+  background-color: black;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+}
+
+/* Specific color for the keys 'AC', 'DEL', '%', and '=' */
+button:nth-child(17) {
+  background-color: red; /* Red color for 'AC' */
+  color: white;
+}
+
+button:nth-child(19) {
+  background-color: green; /* Lightseagreen for 'DEL' */
+  color: white;
+}
+
+button:nth-child(18) {
+  background-color: yellow; /* Gold color for '%' */
+  color: black;
+}
+
+button:nth-child(20) {
+  background-color: skyblue; /* Steelblue for '=' */
+  color: white;
+}
+
+button {
+  padding: 15px;
+  font-size: 20px;
+  border: black;
+  border-radius: 5px;
+  color: black;
+  background-color: white;
+  cursor: pointer;
+  transition: background-color black;
+}
+
+button:hover {
+  background-color: white;
+}
+
+#display {
+  width: calc(100% - 20px);
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 24px;
+  border: none;
+  border-radius: 5px;
+  background-color: lightseagreen;
+  color: black;
+}

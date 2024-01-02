@@ -1,0 +1,95 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: grey;
+}
+
+header {
+  background: linear-gradient(to right, #333, #555);
+  color: indianred;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  list-style: revert-layer;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+a {
+  color: limegreen;
+  text-decoration: blink;
+}
+
+main {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  margin-bottom: 40px;
+  background-color: darkgrey;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 80%;
+  max-width: 800px;
+  transition: transform 0.3s ease-in-out;
+}
+
+section:hover {
+  transform: translateY(-5px);
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background: linear-gradient(to right, #333, #555);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background: linear-gradient(to right, #555, #777);
+}
+
+.menu-item {
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.menu-item:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item img {
+  max-width: 20%;
+  height: 10;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(to right, #333, #555);
+  color: gray;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
